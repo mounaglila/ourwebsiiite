@@ -1,0 +1,70 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a5e);
+  color: white;
+  padding: 20px;
+}
+
+.selection-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 50%;
+  max-width: 600px;
+}
+
+.selection-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.selection-box {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.selection-box label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.selection-box select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selection-box select:hover {
+  background: #f1f1f1;
+}
+
+.start-button {
+  margin-top: 25px;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-button:hover {
+  background: #ffaa00;
+}
